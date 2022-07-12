@@ -33,7 +33,7 @@ func main() {
 			Flags: []cli.Flag{
 				&cli.StringFlag{
 					TakesFile: true,
-					Required:  true,
+					Required:  false,
 					Name:      "script",
 					Usage:     "Ruby patch script to execute to build openvpn w/ the needed changes.",
 				},
